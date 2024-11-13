@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            width: 350px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .profile-pic {
+            display: block;
+            width: 100px;
+            height: 100px;
+            border: 2px solid #333;
+            border-radius: 10%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin: 15px 0 10px;
+        }
+
+        .info {
+            font-size: 16px;
+            margin: 5px 0;
+            text-align: left;
+        }
+
+        .top-list, .goals {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid #333;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .top-list li, .goals li {
+            margin: 5px 0;
+        }
+
+        .highlight {
+            background-color: #e6e6e6;
+            padding: 2px 4px;
+            border-radius: 5px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #333;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>All About ME</h1>
+        
+        <img src="aku.jpg" alt="Foto Profil" class="profile-pic">
+        
+        <p class="section-title">It's me Muhamad Daffa Parlindungan</p>
+        <div class="info">
+            <p>I am <span class="highlight">20</span> years old</p>
+            <p>I live in <span class="highlight">Bandung (Bandar Lampung Ujung)</span></p>
+            <p>My Birthday: <span class="highlight">03-November-2004</span></p>
+            <p>Saya adalah seorang Mahasiswa Institut Teknologi Sumatera Fakultas Infrastruktur Kewilayahan Teknik Geomatika yang memiliki minat dalam berlibur seharian. Senang mengeksplorasi hal baru dan berinovasi.</p>
+        </div>
+
+        <a href="mailto:muhamad.122230064@student.itera.ac.id" class="contact-btn">Hubungi Saya 087773102804</a>
+        
+        <div class="social-icons">
+            <a href="https://instagram.com/m_daappaa" target="_blank">&#x1F4F7;</a> <!-- Ikon Instagram -->
+        </div>
+        
+        <p class="section-title">My TOP list</p>
+        <ul class="top-list">
+            <li>Animal: <span class="highlight">Kucing</span></li>
+            <li>Book: <span class="highlight">Ga Hobi</span></li>
+            <li>Movie: <span class="highlight">Anime</span></li>
+            <li>Sport: <span class="highlight">Berenang</span></li>
+            <li>Song: <span class="highlight">No.1 Party Anthem Arctic Monkeys</span></li>
+            <li>Game: <span class="highlight">Mobile Legend</span></li>
+            <li>Hobby: <span class="highlight">Healing</span></li>
+            <li>Food: <span class="highlight">Geprek Mak</span></li>
+            <li>Drink: <span class="highlight">Marimas Nipis</span></li>
+            <li>Clothes: <span class="highlight">Kaosan</span></li>
+        </ul>
+
+        <p class="section-title">GOALS</p>
+        <ul class="goals">
+            <li>Jadi kaya Raya</li>
+            <li>Punya Kost Kostan 100 Pintu</li>
+            <li>Punya Bengkel Pribadi Lengkap Dengan Isinya</li>
+        </ul>
+    </div>
+
+</body>
+</html>
